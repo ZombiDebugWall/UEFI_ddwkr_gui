@@ -787,7 +787,7 @@ def run_tkinter_interface(name_art):
     
     output_textwidget = tkinter.Text(main_window, height = 10, width = 84)
     output_textwidget.place(x = 10, y = 10)
-    output_window_log("UEFI-DDWKR V1.0 by Zombi3000\n")
+    output_window_log("UEFI-DDWKR V1.0 by ZombiDebugWall\n")
     
     start_button = tkinter.ttk.Button(main_window, text = "Start", width = 10, command = run)
     start_button.place(x = 610, y = 262)
